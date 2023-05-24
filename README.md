@@ -3,8 +3,8 @@
 
 
 [Installation]
-git clone https://github.com/BAUZACE7/Reverse-IP
+. git clone https://github.com/BAUZACE7/Reverse-IP
 
 
 
-python reverse-ip.py
+. python reverse-ip.py
