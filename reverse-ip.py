@@ -25,6 +25,15 @@ def main(fp):
 
             # Wait for all tasks to complete
             concurrent.futures.wait(futures)
+banner = """
+BBBBB  AAAAA  U   U  ZZZZZ   AAAAA  CCCCC  EEEEE   777
+B   B  A   A  U   U     Z    A   A  C      E         7
+BBBBB  AAAAA  U   U    Z    AAAAA  C      EEEE      7
+B   B  A   A  U   U   Z    A   A  C      E         7
+BBBBB  A   A   UUU   ZZZZ A   A  CCCCC  EEEEE  77777
+"""
+
+print(banner)
 
 filename = input('IP File: ')
 main(filename)
